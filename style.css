@@ -1,0 +1,168 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#logo {
+    color: white;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo img {
+    filter: invert(1);
+    height: 30px;
+    margin-left: 8px;
+    
+}
+#navbar {
+    background-color: black;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding: 13px 4px;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 6px 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+#navbar li a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 7px;
+    padding: 3px 4px;
+    
+}
+
+#introSection {
+    display: flex;
+    flex-direction: column;
+    
+    height: 300px;
+    background-color: red;
+    background: center/ cover url("/static/bg03.jpg");
+    opacity: 0.8;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#introSection div {
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    background-color: #000000;
+}
+
+#missionSection h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#missionSection {
+    height: 300px;
+    background-color: rgb(241 235 246);
+}
+
+.card {
+    display: inline-block;
+    padding: 3px 4px;
+    height: 209px;
+    width: 30%;
+    margin: 23px 25px;
+
+}
+
+.card-box {
+    margin-top: -162px;               /*Doubt-Alternative method*/
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+}
+
+.card-img {
+    height: 120px;
+    padding: 0 14px;
+    margin: 5px 9px;
+    
+}
+
+#card-content {
+    font-size: 10px;
+}
+
+.card-img img {
+    filter: invert(1);
+    height: inherit;
+    
+}
+
+#missionSection h3 {
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    height: 200px;
+    margin: 8px;
+    text-align: center;
+    padding: 10px 4px;
+    
+
+}
+
+.sponserLogo {
+    height: 80px;
+    filter: invert(1);
+    padding: 7px 15px;
+    /* display: flex;
+    flex-direction: row; */
+    margin: auto;
+}
+
+#sponserSection {
+    height: 300px;
+    background-color: rgba(230, 191, 224, 0.511);
+    margin: auto;
+    padding: 20px 80px;
+}
+
+.spContainer {
+    padding: 50px 190px;
+    margin: auto;
+    width: 60%;
+}
+
+#sponserSection h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+#footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
