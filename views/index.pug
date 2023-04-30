@@ -1,0 +1,62 @@
+doctype html 
+head 
+    title My Dance Academy
+    style 
+        include ../static/style.css 
+body 
+    nav#navbar 
+        ul 
+            div#logo
+                img(src='/static/logo.png')
+
+                p DFD
+                
+            li #[a(href = "/") Home ]
+            li #[a(href = "/") About ]
+            li #[a(href = "/") Services ]
+            li #[a(href = "/") Class Info]
+            li #[a(href = "/") Contact Us]
+
+    section#introSection 
+        div Welcome to my D for Dance Academy 
+        div Live Laugh Dance Repeat
+
+    section#missionSection 
+        h2 Our Mission
+
+        div.card 
+            h3 Learn at your pace 
+            div.card-box
+                .card-img 
+                    img(src='/static/01.png')
+                .card-content 
+                | Bestest Co-operation
+        div.card 
+            h3 Expert teaching 
+            div.card-box
+                .card-img 
+                    img(src='/static/02.png')
+                .card-content 
+                | Bestest Faculty
+        div.card 
+            h3 Results
+            div.card-box            
+                .card-img 
+                    img(src='/static/03.png')
+                .card-content 
+                | Bestest Results
+        
+
+    section#sponserSection 
+        h2 Our Sponsers
+        div.spContainer
+            img(src="/static/logo01.png", class = "sponserLogo")
+            img(src="/static/logo02.png", class = "sponserLogo")
+            img(src="/static/logo03.jpg", class = "sponserLogo")
+
+
+
+    footer#footer 
+        | Copyrights MyDanceAcademy | All Rights Reserved
+    script 
+        include ../static/index.js
